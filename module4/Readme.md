@@ -1,6 +1,6 @@
 # 📘 Module 4: LLMs and Text Generation
 
->  DeepLearning.AI_ fileciteturn3file0
+>  DeepLearning.AI_
 
 ---
 

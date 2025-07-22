@@ -1,6 +1,6 @@
 # 📘 Module 2: Information Retrieval Foundations
 
-> _By Zain Hasan | DeepLearning.AI_
+>  DeepLearning.AI_
 
 ---
 

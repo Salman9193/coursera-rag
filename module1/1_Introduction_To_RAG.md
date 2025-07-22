@@ -60,3 +60,8 @@ flowchart TD
 - RAG bridges the gap between an LLM's pre-trained knowledge and real-world, up-to-date information.
 - The retriever acts as a "librarian," fetching relevant data for the LLM to use.
 - RAG is especially useful for dynamic or specialized queries where LLMs alone would fall short.
+
+
+[Previous](./Readme.md) | [Home](./Readme.md) | [Next](./2_Applications_Of_RAG.md)
+
+                                                                    

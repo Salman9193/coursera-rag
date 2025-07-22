@@ -12,15 +12,16 @@
 
 ---
 
-## 🛠️ Hands-on Project Modules
+## Index of Module 1
+1. [Introduction To RAG](https://github.com/Salman9193/coursera-rag/blob/main/module1/1_Introduction_To_RAG.md)
+2. [Applications of RAG](https://github.com/Salman9193/coursera-rag/blob/main/module1/2_Applications_Of_RAG.md)
+3. [RAG Architecture](https://github.com/Salman9193/coursera-rag/blob/main/module1/3_RAG_Architecture.md)
+4. [Introduction to LLMs](https://github.com/Salman9193/coursera-rag/blob/main/module1/4_Intro_to_LLMs.md)
+5. [Introduction to Information Retrieval](https://github.com/Salman9193/coursera-rag/blob/main/module1/5_Intro_to_Information_Retrieval.md)
+6. [Course Lab](https://github.com/Salman9193/coursera-rag/tree/main/module1/lab)
 
-- **Module 1**: Basic RAG
-- **Module 2**: Retriever
-- **Module 3**: Vector Database
-- **Module 4**: LLM
-- **Module 5**: Monitoring & Evaluation
 
----
+# Summary of Module 1
 
 ## 🔍 What is RAG?
 

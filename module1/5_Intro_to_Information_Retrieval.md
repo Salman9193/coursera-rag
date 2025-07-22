@@ -39,6 +39,27 @@ flowchart TD
     style G fill:#607D8B,stroke:#455A64,color:white
 ```
 
+```mermaid
+flowchart LR
+    A[Raw Documents] --> B(Tokenizer)
+    B --> C[Processed Terms]
+    C --> D[(Index)]
+    
+    E[User Query] --> F(Tokenizer)
+    F --> G[Query Terms]
+    G --> H{Retriever}
+    H --> D
+    D --> I[Ranked Results]
+    
+    subgraph Indexing
+        A --> B --> C --> D
+    end
+    
+    subgraph Retrieval
+        E --> F --> G --> H --> I
+    end
+```
+
 ## 3. Relevance Scoring
 
 **Scoring Methods:**
@@ -119,3 +140,5 @@ mindmap
       "RAG Systems"
       "Enterprise Search"
 ```
+
+[Previous](././4_Intro_to_LLMs.md) | [Home](./Readme.md)

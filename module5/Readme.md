@@ -1,6 +1,5 @@
 # 📘 Module 5: RAG Systems in Production
 
-*Introduction slide* fileciteturn4file0
 
 ---
 

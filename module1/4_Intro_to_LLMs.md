@@ -38,12 +38,38 @@ graph TD
     D --> E["Hallucination (e.g., 'The sun explodes daily')"]
 ```
 
+# Key Limitations & Why RAG Solves Them
+
+## 3. Key Limitations
+
+### A. Context Window
+**Impact:**
+- Longer contexts → higher accuracy but:
+  - Quadratic compute growth (attention layers)
+  - "Lost in the middle" problem
+
+### B. Computational Costs
+**Real-World Examples:**
+
+| Operation         | Cost (Relative) |
+|-------------------|-----------------|
+| 1k token prompt   | 1x              |
+| 10k token prompt  | 100x            |
+| 100k token prompt | 10,000x         |
+
+
+
+
 ## 4. RAG to the Rescue
 
 **How RAG Fixes LLM Limitations:**
 - **Knowledge Gaps:** Provides missing data via retrieval
 - **Hallucination Control:** Anchors responses in documents
 - **Dynamic Updates:** No retraining needed
+- **Optimization:**
+    - Retrieval filters 99%+ irrelevant data
+    - Enables small models to beat larger ones
+    - Cuts costs by 10-100x for domain tasks
 
 ```mermaid
 sequenceDiagram
@@ -60,3 +86,11 @@ sequenceDiagram
 - **LLMs ≠ Knowledge Bases:** They're statistical text predictors
 - **Context Window Limits:** Typical range: 4K-1M tokens
 - **RAG Synergy:** Retrievers feed LLMs precise data when needed
+- - **LLMs fundamentally limited by:**
+  - Fixed context windows
+  - O(n²) attention scaling
+  - Static knowledge
+- **RAG strategically overcomes these by:**
+  - Dynamic knowledge injection
+  - Context compression
+  - Continuous updates

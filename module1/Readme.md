@@ -1,6 +1,6 @@
 # 📘 Module 1: Introduction to Retrieval-Augmented Generation (RAG)
 
-> _By Zain Hasan | DeepLearning.AI_
+>  DeepLearning.AI_
 
 ---
 

@@ -94,3 +94,5 @@ response = generate(prompt, context)
 - **User Experience:** Identical to standalone LLM (input prompt → output response).
 - **Critical Addition:** Retriever bridges LLM’s knowledge gaps with external data.
 - **Flexibility:** Works for both structured (DBs) and unstructured (documents) data.
+
+[Previous](./2_Applications_Of_RAG.md) | [Home](./Readme.md) | [Next](./4_Intro_to_LLMs.md)

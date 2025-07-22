@@ -1,6 +1,6 @@
 # 📘 Module 3: Information Retrieval in Production
 
-> _By Zain Hasan | DeepLearning.AI_
+> DeepLearning.AI_
 
 ---
 
